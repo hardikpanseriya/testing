@@ -1,0 +1,437 @@
+Thu Oct  8 10:16:32 2015 [567150][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] IP Address mismatch: SESSION IP: 122.161.145.193 CLIENT IP: 111.91.224.26
+Thu Oct  8 10:40:13 2015 [609811][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ hddcfl@hry.nic.in,vitaindia@gmail.com ]
+Thu Oct  8 10:40:14 2015 [609811][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ hddcfl@hry.nic.in,vitaindia@gmail.com ]
+Thu Oct  8 10:49:05 2015 [634641][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ dirhird1@rediffmail.com, ]
+Thu Oct  8 10:49:05 2015 [634641][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ dirhird1@rediffmail.com, ]
+Thu Oct  8 11:46:11 2015 [748351][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ highereducation_haryana@hotmail.com, ]
+Thu Oct  8 11:46:11 2015 [748351][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ highereducation_haryana@hotmail.com, ]
+Thu Oct  8 12:00:12 2015 [777249][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '52b155b6-48f4-5141-912c-55fb9d7b0c10' AND deleted = 0 AND visible = 1) Query Failed: SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '52b155b6-48f4-5141-912c-55fb9d7b0c10' AND deleted = 0 AND visible = 1) LIMIT 0,50: MySQL error 2013: Lost connection to MySQL server during query
+Fri Oct  9 05:45:40 2015 [717627][1][FATAL] Exception in Controller: Index doesn't exists in the specified directory.
+Fri Oct  9 06:10:10 2015 [793132][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c31420d0-34fb-665d-8ec5-5613ab5cb511' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Fri Oct  9 06:14:09 2015 [804461][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c31420d0-34fb-665d-8ec5-5613ab5cb511' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Fri Oct  9 08:46:38 2015 [71865][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct  9 08:46:38 2015 [71865][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct  9 10:55:53 2015 [337978][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL] IP Address mismatch: SESSION IP: 122.161.121.199 CLIENT IP: 111.91.224.26
+Fri Oct  9 10:55:53 2015 [337517][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL] IP Address mismatch: SESSION IP: 122.161.121.199 CLIENT IP: 111.91.224.26
+Sat Oct 10 04:54:55 2015 [319736][-none-][FATAL] SECURITY: User authentication for Manoj Kumar failed
+Sat Oct 10 04:54:55 2015 [319736][-none-][FATAL] FAILED LOGIN:attempts[1] - Manoj Kumar
+Sat Oct 10 04:55:26 2015 [316391][-none-][FATAL] SECURITY: User authentication for Manoj Kumar failed
+Sat Oct 10 04:55:26 2015 [316391][-none-][FATAL] FAILED LOGIN:attempts[1] - Manoj Kumar
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Sat Oct 10 05:03:29 2015 [337058][cb787e1e-42ee-98b2-6189-55fa693eec87][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Mon Oct 12 06:15:57 2015 [147630][-none-][FATAL] SECURITY: User authentication for Manoj Kumar failed
+Mon Oct 12 06:15:57 2015 [147630][-none-][FATAL] FAILED LOGIN:attempts[1] - Manoj Kumar
+Mon Oct 12 06:16:10 2015 [147630][-none-][FATAL] SECURITY: User authentication for Manoj Kumar failed
+Mon Oct 12 06:16:10 2015 [147630][-none-][FATAL] FAILED LOGIN:attempts[2] - Manoj Kumar
+Mon Oct 12 06:16:31 2015 [147630][-none-][FATAL] SECURITY: User authentication for Manoj Kumar Garg failed
+Mon Oct 12 06:16:31 2015 [147630][-none-][FATAL] FAILED LOGIN:attempts[3] - Manoj Kumar Garg
+Tue Oct 13 04:09:34 2015 [476978][-none-][FATAL] SECURITY: User authentication for Manoj Kumar  failed
+Tue Oct 13 04:09:34 2015 [476978][-none-][FATAL] FAILED LOGIN:attempts[1] - Manoj Kumar 
+Tue Oct 13 04:09:46 2015 [476978][-none-][FATAL] SECURITY: User authentication for Manoj Kumar  failed
+Tue Oct 13 04:09:46 2015 [476978][-none-][FATAL] FAILED LOGIN:attempts[1] - Manoj Kumar 
+Tue Oct 13 04:10:00 2015 [476978][-none-][FATAL] SECURITY: User authentication for manojbhai  failed
+Tue Oct 13 04:10:00 2015 [476978][-none-][FATAL] FAILED LOGIN:attempts[1] - manojbhai 
+Tue Oct 13 04:53:07 2015 [549838][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] IP Address mismatch: SESSION IP: 122.161.91.8 CLIENT IP: 111.91.224.26
+Tue Oct 13 05:16:33 2015 [590146][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='be57222e-38c6-b4dd-78e2-5613b85c9437' AND opportunities_contacts.deleted=0
+
+ where contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 05:42:18 2015 [640662][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='b2cd5056-d706-9667-84f0-561c98b1e227' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 06:23:02 2015 [740073][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='97d065c5-19ae-7cb2-ac81-561ca2726597' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 06:24:14 2015 [745032][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='97d065c5-19ae-7cb2-ac81-561ca2726597' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 06:57:44 2015 [805432][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='97472c28-8e22-dfd1-23ac-561ca982dafa' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 06:58:00 2015 [818311][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL] SUGAREMAILADDRESS: address did not validate [ ddkulkar@gmail.com, ]
+Tue Oct 13 06:58:00 2015 [818311][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL] SUGAREMAILADDRESS: address did not validate [ ddkulkar@gmail.com, ]
+Tue Oct 13 13:03:23 2015 [537463][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='f417204d-7821-00f7-a7d6-561d0072cb7b' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 13:15:16 2015 [563951][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c1a959d5-fbf9-cb79-996e-561d03234ea9' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 13:18:16 2015 [563951][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='894410d2-d4f6-3956-1067-5604ef9b07bb' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 13:18:44 2015 [567894][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='763adeec-c487-2e5d-3348-5604f2752414' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 13 13:27:15 2015 [585507][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='b3fb2786-bade-d217-2e6d-561d0618e90f' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Fri Oct 16 09:06:25 2015 [20259][d1504815-db76-48e3-51c9-55fb9bdfd713][FATAL] IP Address mismatch: SESSION IP: 182.69.19.13 CLIENT IP: 182.69.26.82
+Fri Oct 16 09:55:06 2015 [122144][e88686ff-9c6b-8eff-9eb4-55e57fb919ca][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Fri Oct 16 09:55:06 2015 [122144][e88686ff-9c6b-8eff-9eb4-55e57fb919ca][FATAL] SugarPHPMailer encountered an error: The following From address failed: pankaj.goyal@netcreativemind.com
+Fri Oct 16 10:58:38 2015 [262424][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct 16 10:58:38 2015 [262424][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct 16 10:59:25 2015 [263995][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct 16 10:59:25 2015 [263995][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct 16 11:08:35 2015 [289434][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct 16 11:08:35 2015 [289434][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct 16 11:16:58 2015 [311832][e88686ff-9c6b-8eff-9eb4-55e57fb919ca][FATAL] IP Address mismatch: SESSION IP: 182.69.26.82 CLIENT IP: 111.91.224.26
+Fri Oct 16 11:17:38 2015 [311832][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct 16 11:17:38 2015 [311832][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct 16 11:23:03 2015 [320161][-none-][FATAL] SECURITY: User authentication for Ajay Dalal failed
+Fri Oct 16 11:23:03 2015 [320161][-none-][FATAL] FAILED LOGIN:attempts[1] - Ajay Dalal
+Fri Oct 16 11:51:01 2015 [382622][e88686ff-9c6b-8eff-9eb4-55e57fb919ca][FATAL] IP Address mismatch: SESSION IP: 182.69.26.82 CLIENT IP: 111.91.224.26
+Fri Oct 16 13:59:19 2015 [667995][1][FATAL] IP Address mismatch: SESSION IP: 103.250.146.7 CLIENT IP: 14.97.161.6
+Mon Oct 19 05:43:02 2015 [146547][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='dc7b5f49-a130-46e5-6430-562480626fa8' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 06:00:30 2015 [182138][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Mon Oct 19 06:00:34 2015 [182138][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Mon Oct 19 06:09:52 2015 [219226][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c3948f74-1b5c-d96b-3bad-562486ad811d' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 06:20:43 2015 [219226][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='16440161-0572-3661-a65c-56248b7a3d5c' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 06:23:18 2015 [244187][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='16440161-0572-3661-a65c-56248b7a3d5c' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 06:35:53 2015 [290131][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='4801a7a9-1f82-b63f-49bd-56248e9fb893' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 06:38:59 2015 [299764][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='AOW_WorkFlow' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Mon Oct 19 06:38:59 2015 [299764][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed: SELECT id FROM aow_workflow WHERE aow_workflow.flow_module = 'UserPreferences' AND aow_workflow.status = 'Active' AND (aow_workflow.run_when = 'Always' OR aow_workflow.run_when = 'On_Save' OR aow_workflow.run_when = 'Create') AND aow_workflow.deleted = 0 : MySQL error 2006: MySQL server has gone away
+Mon Oct 19 06:38:59 2015 [299764][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] Retrieving record WHERE assigned_user_id = '25190325-9a14-00fa-87d5-55fa6cd23e0a' AND category = 'Accounts2_ACCOUNT' AND deleted=0: Query Failed: SELECT user_preferences.* FROM user_preferences  WHERE assigned_user_id = '25190325-9a14-00fa-87d5-55fa6cd23e0a' AND category = 'Accounts2_ACCOUNT' AND deleted=0 LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Mon Oct 19 07:25:21 2015 [409197][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='3f07a262-b8aa-4aaf-2a8b-56249949ec14' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:25:57 2015 [409197][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='3f07a262-b8aa-4aaf-2a8b-56249949ec14' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:26:51 2015 [409170][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='3f07a262-b8aa-4aaf-2a8b-56249949ec14' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:52:58 2015 [468909][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='8785b18f-ad04-90db-821b-56249de33da5' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:54:36 2015 [468909][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='3f07a262-b8aa-4aaf-2a8b-56249949ec14' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:56:09 2015 [474222][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c3948f74-1b5c-d96b-3bad-562486ad811d' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 07:57:16 2015 [474222][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c3948f74-1b5c-d96b-3bad-562486ad811d' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:03:13 2015 [478475][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='f1807679-bea9-8084-21a4-5624a3dee9a9' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:11:36 2015 [498795][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='77e7fb3a-509d-d391-5acf-5624a5e7d80c' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:28:05 2015 [536305][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='5adeecb5-84a4-f0c5-3162-5624a96ea695' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:37:34 2015 [565608][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='8ca70658-c5f7-7353-f3c9-5624abead783' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:49:45 2015 [580190][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='d4033f8f-1c68-d4e0-302c-5624ae9ee16b' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:50:40 2015 [580208][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='8ca70658-c5f7-7353-f3c9-5624abead783' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:51:45 2015 [597044][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='8ca70658-c5f7-7353-f3c9-5624abead783' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 08:55:19 2015 [580190][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='f417204d-7821-00f7-a7d6-561d0072cb7b' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 09:01:14 2015 [616549][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='cad39706-e61e-98c1-1820-5624b002eb06' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 09:39:27 2015 [713393][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='402448ff-f134-fad9-896e-5624b968ea53' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 19 09:49:16 2015 [734000][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='34279ed8-2469-ca79-11cf-5624bc6ec64e' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 20 05:36:00 2015 [973396][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ edusecondary@hry.nic.in,edusecondaryhry@gmail.com ]
+Tue Oct 20 05:36:01 2015 [973396][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ edusecondary@hry.nic.in,edusecondaryhry@gmail.com ]
+Tue Oct 20 06:12:35 2015 [14315][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ dgte.hry@gmail.com,dtehry@hry.nic.in ]
+Tue Oct 20 06:12:36 2015 [14315][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ dgte.hry@gmail.com,dtehry@hry.nic.in ]
+Tue Oct 20 07:07:38 2015 [149109][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ hwdcl@rediffmail.com, hwdc@hry.nic.in ]
+Tue Oct 20 07:07:39 2015 [149109][52b155b6-48f4-5141-912c-55fb9d7b0c10][FATAL] SUGAREMAILADDRESS: address did not validate [ hwdcl@rediffmail.com, hwdc@hry.nic.in ]
+Tue Oct 20 07:52:05 2015 [244719][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='131a7c42-b9a4-5f83-1a2c-5625f1cfd3d8' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 20 08:41:26 2015 [344120][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='15b9872c-7ad8-ab1f-cba9-5625f50cd22e' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Tue Oct 20 09:05:42 2015 [394202][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='1314888c-6407-372e-b7e9-5626037a1fd7' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 06:39:21 2015 [828603][e88686ff-9c6b-8eff-9eb4-55e57fb919ca][FATAL] IP Address mismatch: SESSION IP: 111.91.224.26 CLIENT IP: 122.161.109.181
+Wed Oct 21 06:43:13 2015 [834424][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] IP Address mismatch: SESSION IP: 111.91.224.26 CLIENT IP: 122.161.109.181
+Wed Oct 21 07:28:46 2015 [932955][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] IP Address mismatch: SESSION IP: 122.161.109.181 CLIENT IP: 111.91.224.26
+Wed Oct 21 09:07:21 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:07:22 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:07:22 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:07:22 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:07:22 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:07:22 2015 [64678][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 21 09:08:44 2015 [69771][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] error loading relationship aor_reports
+Wed Oct 21 09:23:52 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:23:52 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:23:52 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:23:52 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:23:52 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_fields failed to load
+
+Wed Oct 21 09:23:53 2015 [96217][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] aor_reports for aor_report_aor_conditions failed to load
+
+Wed Oct 21 09:45:26 2015 [142309][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='731468b3-e5a2-1221-35c0-56275e74831e' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 09:47:01 2015 [142298][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c1a959d5-fbf9-cb79-996e-561d03234ea9' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 09:49:28 2015 [145179][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='c1a959d5-fbf9-cb79-996e-561d03234ea9' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 09:53:12 2015 [145179][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 21 09:53:12 2015 [145179][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] SugarPHPMailer encountered an error: The following From address failed: niraj.kumar@netcreativemind.com
+Wed Oct 21 09:53:56 2015 [142298][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 21 09:53:56 2015 [142298][e0f15bb9-46df-faf2-8ec9-55e57d8a8b7a][FATAL] SugarPHPMailer encountered an error: The following From address failed: niraj.kumar@netcreativemind.com
+Wed Oct 21 09:57:16 2015 [142298][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 21 09:57:16 2015 [142298][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] SugarPHPMailer encountered an error: The following From address failed: b.sharma@netcreativemind.com
+Wed Oct 21 09:59:15 2015 [142298][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 21 09:59:15 2015 [142298][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL] SugarPHPMailer encountered an error: The following From address failed: b.sharma@netcreativemind.com
+Wed Oct 21 10:38:08 2015 [253750][1][FATAL] IP Address mismatch: SESSION IP: 103.238.105.69 CLIENT IP: 14.97.241.145
+Wed Oct 21 10:41:39 2015 [255630][1][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='731468b3-e5a2-1221-35c0-56275e74831e' AND opportunities_contacts.deleted=0
+
+ where contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 10:56:51 2015 [282800][-none-][FATAL] SECURITY: User authentication for niraj kumar failed
+Wed Oct 21 10:56:51 2015 [282800][-none-][FATAL] FAILED LOGIN:attempts[1] - niraj kumar
+Wed Oct 21 10:57:13 2015 [282800][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Oct 21 10:57:13 2015 [282800][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+Wed Oct 21 11:00:00 2015 [282800][-none-][FATAL] SECURITY: User authentication for Niraj Kumar failed
+Wed Oct 21 11:00:00 2015 [282800][-none-][FATAL] FAILED LOGIN:attempts[1] - Niraj Kumar
+Wed Oct 21 11:00:38 2015 [288634][-none-][FATAL] SECURITY: User authentication for Pankaj Goyal failed
+Wed Oct 21 11:00:38 2015 [288634][-none-][FATAL] FAILED LOGIN:attempts[2] - Pankaj Goyal
+Wed Oct 21 11:24:33 2015 [288634][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='812055e6-684d-039a-a94e-562773f0b162' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 11:29:37 2015 [288634][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='812055e6-684d-039a-a94e-562773f0b162' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 11:31:35 2015 [337018][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='812055e6-684d-039a-a94e-562773f0b162' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 21 11:32:02 2015 [347923][1][FATAL] Email Address provided is not Primary Address for email with id ' Emailman id=33
+Wed Oct 21 11:32:17 2015 [347923][1][FATAL] Email Address provided is not Primary Address for email with id ' Emailman id=35
+Wed Oct 21 11:35:06 2015 [352489][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='812055e6-684d-039a-a94e-562773f0b162' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Thu Oct 22 09:23:57 2015 [604995][1][FATAL] IP Address mismatch: SESSION IP: 14.97.241.145 CLIENT IP: 103.250.145.5
+Thu Oct 22 09:23:57 2015 [605044][1][FATAL] IP Address mismatch: SESSION IP: 14.97.241.145 CLIENT IP: 103.250.145.5
+Thu Oct 22 09:48:16 2015 [648213][-none-][FATAL] Retrieving record by id users:1 found  Query Failed: SELECT users.* FROM users  WHERE users.id = '1' AND users.deleted=0 LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Thu Oct 22 09:48:16 2015 [654573][-none-][FATAL] Retrieving record by id users:1 found  Query Failed: SELECT users.* FROM users  WHERE users.id = '1' AND users.deleted=0 LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Mon Oct 26 06:35:18 2015 [852599][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='1161e42c-60a1-d4e6-3773-562dc74a47bd' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Mon Oct 26 06:36:42 2015 [864335][25190325-9a14-00fa-87d5-55fa6cd23e0a][FATAL]  Query Failed:  SELECT contacts.id ref_id   , jt0.assigned_user_id opportunity_role_fields_owner, 'Opportunities' opportunity_role_fields_mod, opportunities_contacts.opportunity_id opportunity_id, opportunities_contacts.id opportunity_role_id, opportunities_contacts.contact_role opportunity_role , accounts.name account_name, jtl1.account_id account_id FROM contacts   LEFT JOIN  accounts_contacts jtl1 ON contacts.id=jtl1.contact_id AND jtl1.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl1.account_id AND accounts.deleted=0
+ AND accounts.deleted=0 INNER JOIN  opportunities_contacts ON contacts.id=opportunities_contacts.contact_id AND opportunities_contacts.opportunity_id='1161e42c-60a1-d4e6-3773-562dc74a47bd' AND opportunities_contacts.deleted=0
+
+ where ( contacts.assigned_user_id ='25190325-9a14-00fa-87d5-55fa6cd23e0a' ) AND contacts.deleted=0: MySQL error 1054: Unknown column 'jt0.assigned_user_id' in 'field list'
+Wed Oct 28 12:16:02 2015 [883878][-none-][FATAL] Retrieving record by id users:1 found  Query Failed: SELECT users.* FROM users  WHERE users.id = '1' AND users.deleted=0 LIMIT 0,1: MySQL error 2006: MySQL server has gone away
+Fri Oct 30 06:14:32 2015 [411508][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Oct 30 06:14:47 2015 [411508][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Oct 30 06:14:54 2015 [411508][-none-][FATAL]  Query Failed: SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0: MySQL error 2006: MySQL server has gone away
+Fri Oct 30 06:16:24 2015 [411508][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away

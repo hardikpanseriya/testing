@@ -1,0 +1,9 @@
+Key store path:
+C:\Users\alpeshbhai\android.jks
+
+password: WalartPharma
+
+Key:
+
+	Alias: WalartPharmaKey
+	Password: WalartPharma
